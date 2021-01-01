@@ -23,6 +23,7 @@ Welcome to the March 2020 release of Erxes. The number of updates and new featur
 - **Heroku deployment:** Erxes has successfully built to supporting services on Heroku.
 - **Erxes language has expanded to support by Indonesian and** **Italian languages.**
 - The contacts feature is added more FILTER value BY BRAND.
+- Some improvments also some patches.
 - The knowledgebase feature can be reacted reaction as a Happy, Sad, Like, Dislike go on. Also KB able to run without iframe.
 - **Reimplement segments using elasticsearch.** We introduced elasticsearch to our architecture. Using [https://github.com/yougov/mongo-connector](https://github.com/yougov/mongo-connector) to sync customers and companies collection on MongoDB with elasticsearch. Every time if there is any change in these collections those changes will be synced to elasticsearch automatically. By doing this we are performing all customer and company-related filters using elasticsearch which is very efficient, fast and scalable segment method. Additionally we have implemented events feature in segments.
 
